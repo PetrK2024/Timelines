@@ -1,0 +1,11 @@
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\bin\Debug\Timelines.exe.config
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\bin\Debug\Timelines.exe
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\bin\Debug\Timelines.pdb
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.csproj.AssemblyReference.cache
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.Editor.resources
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.Form1.resources
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.Properties.Resources.resources
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.csproj.GenerateResource.cache
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.csproj.CoreCompileInputs.cache
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.exe
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.pdb
