@@ -12,17 +12,28 @@ namespace Timelines
         public Direction BubbleDirection { get; set; }
         public Size BubbleSize { get; set; }
         public bool IsClicked { get; set; } = false;
-        public int Year { get; set; }
         public Line OwningLine { get; set; }
         public bool SizeIsChanging { get; set; }
 
         public const int Width = 10;
         public const int IncreaseWidth = 6;
 
+        public int Year { get; set; }
+        public int Month { get; set; }
+        public int Day { get; set; }
+
+        public string Name { get; set; }
+        public string Description { get; set; }
+
         public Bubble(Line owningLine, int year, Direction direction, Color bubbleColor)
         {
             OwningLine = owningLine;
             Year = year;
+            if(Year > OwningLine.ToYear || Year < OwningLine.FromYear)
+            {
+                MessageBox.Show("Bublina musí být ose!");
+                return;
+            }
             BubbleDirection = direction;
             BubbleColor = bubbleColor;
             BubbleBrush = new SolidBrush(BubbleColor);
@@ -33,8 +44,7 @@ namespace Timelines
         {
             Y = OwningLine.LineY - (Width / 2);
 
-            if(OwningLine.FromYear * (int)OwningLine.LineDirectionFrom <= Year * (int)BubbleDirection && 
-                OwningLine.ToYear * (int)OwningLine.LineDirectionTo >= Year * (int)BubbleDirection)
+            if(OwningLine.FromYear <= Year && OwningLine.ToYear >= Year)
             {
                 if (Year * (int)BubbleDirection <= 0 && !SizeIsChanging)
                 {
@@ -45,9 +55,8 @@ namespace Timelines
                     X = OwningLine.P1.X - (Width / 2) + (Year * Meter.PixelsPerTick * (int)BubbleDirection) - (OwningLine.FromYear * Meter.PixelsPerTick);
                 }
 
-
                 Rectangle rec = new Rectangle(new Point(X,Y), BubbleSize);
-
+                g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
                 g.FillEllipse(BubbleBrush, rec);
             }
            
@@ -55,37 +64,17 @@ namespace Timelines
           
         }
 
-        public void IncreaseSize()
-        {
-            SizeIsChanging = true;
-            BubbleSize = new Size(Width + IncreaseWidth, Width + IncreaseWidth);
-            X -= ((Width + IncreaseWidth) / 4);
-
-        }
-
-        public void ReduceSize()
-        {
-            BubbleSize = new Size(Width, Width);
-           // X = (BubbleSize.Width / 4);
-            SizeIsChanging = false;
-        }
-
         public bool IsBubbleFocused(Point mousePosition)
         {
-            for (int i = (X * (int)BubbleDirection) - Width; i < (Width + X * (int)BubbleDirection); i++)
+            Rectangle bubble = new Rectangle(new Point(X, Y), BubbleSize);
+            Rectangle mouse = new Rectangle(new Point(mousePosition.X - (BubbleSize.Width / 2), mousePosition.Y - 5), BubbleSize);
+
+            if(bubble.IntersectsWith(mouse))
             {
-                for (int j = Y - Width; j < Y + Width; j++)
-                {
-                    Point currentPointOnBubble = new Point(i, j);
-                    if (mousePosition.Equals(currentPointOnBubble))
-                    {
-                        IncreaseSize();
-                        return true;
-                    }
-                }
+                return true;
             }
 
-           ReduceSize();
+           //Cursor.Current = Cursors.Default;
            return false;
         }
     }

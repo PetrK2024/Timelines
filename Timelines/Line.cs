@@ -25,6 +25,13 @@ namespace Timelines
         { 
             FromYear = fromYear;
             ToYear = toYear;
+
+            if(FromYear == ToYear)
+            {
+                MessageBox.Show("Nastavte délku osy!");
+                return;
+            }
+
             LineDirectionFrom = lineDirectionFrom;
             LineDirectionTo = lineDirectionTo;
 
@@ -62,7 +69,6 @@ namespace Timelines
 
             g.DrawLine(LinePen,P1,P2);
 
-
             //hrany
             g.DrawLine(LinePen,new Point(P1.X,LineY + 10), new Point(P1.X, LineY - 10)); 
             g.DrawLine(LinePen,new Point(P2.X,LineY + 10), new Point(P2.X, LineY - 10));
@@ -78,11 +84,16 @@ namespace Timelines
             LinePen = new Pen(LineColor, LINETHICKNESS);
         }
 
-        public bool IsLineFocused(Point mousePosition)
+        public bool IsLineFocused(Point mousePosition, bool isBubbleFocused)
         {
+            if (isBubbleFocused)
+            {
+                return false;
+            }
+
             if (LineDirectionFrom == Direction.Left && LineDirectionTo == Direction.Right)
             {
-                for (int i = P1.X ; i < (P2.X); i++)
+                for (int i = P1.X; i < (P2.X); i++)
                 {
                     for (int j = P1.Y - 7; j < P1.Y + 7; j++)
                     {

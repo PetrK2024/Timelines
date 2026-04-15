@@ -9,3 +9,4 @@ C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.cs
 C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.csproj.CoreCompileInputs.cache
 C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.exe
 C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.pdb
+C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.DetailBubble.resources

@@ -64,6 +64,8 @@ namespace Timelines
             lineColorDialog = new ColorDialog();
             bubbleColorDialog = new ColorDialog();
 
+            
+
             SetDoubleBuffered(pnCanvas, true);
         }
 
@@ -82,8 +84,6 @@ namespace Timelines
         {
             if (dragging)
             {
-                Cursor = Cursors.SizeWE;
-
                 int dx = e.X - lastX;
                 lastX = e.X;
 
@@ -94,7 +94,7 @@ namespace Timelines
                 //label2.Text = e.Location.ToString();
                 foreach (Line line in lines)
                 {
-                    isLineFocused = line.IsLineFocused(e.Location);
+                    isLineFocused = line.IsLineFocused(e.Location, isBubbleFocused);
                     if (isLineFocused)
                     {
                         label2.Text = line.IsClicked.ToString();
@@ -110,22 +110,26 @@ namespace Timelines
                     }
                 }
 
+                bool foundBubble = false;
+
                 foreach (Bubble bubble in bubbles)
                 {
                     isBubbleFocused = bubble.IsBubbleFocused(e.Location);
                     if (isBubbleFocused)
                     {
-                        label2.Text = bubble.IsClicked.ToString();
-
+                        foundBubble = true;
                         focusedBuble = bubble;
+                        label2.Text = bubble.IsClicked.ToString();
                         label1.Text = "Shoda Bubble";
+                        Cursor = Cursors.Cross;
                         break;
                     }
-                    else
-                    {
-                        label2.Text = bubble.IsClicked.ToString();
-                        label1.Text = "Neshoda Bubble";
-                    }
+                }
+
+                if (!foundBubble)
+                {
+                    Cursor = Cursors.Default;
+                    label1.Text = "Neshoda Bubble";
                 }
 
             }
@@ -136,7 +140,6 @@ namespace Timelines
         private void PnCanvas_MouseUp(object sender, MouseEventArgs e)
         {
             dragging = false;
-            Cursor = Cursors.Default;
         }
 
         private void PnCanvas_MouseDown(object sender, MouseEventArgs e)
@@ -144,7 +147,7 @@ namespace Timelines
             dragging = true;
             lastX = e.X;
 
-            if (lines.Count == 0)
+            if (lines.Count == 0 || focusedLine == null)
                 return;
 
             foreach (Line line in lines)
@@ -152,6 +155,7 @@ namespace Timelines
                 line.IsClicked = false;
                 line.ReduceThickness();
             }
+
             if (isLineFocused)
             {
                 pnBubble.Enabled = true;
@@ -166,26 +170,30 @@ namespace Timelines
                 pnBubble.Enabled = false;
             }
 
-            //if (bubbles.Count == 0 || !isBubbleFocused)
-            //    return;
+            if (bubbles.Count == 0 || focusedBuble == null)
+                return;
 
-            //foreach(Bubble bubble in bubbles)
-            //{
-            //    bubble.IsClicked = false;
-            //    bubble.ReduceSize();
-            //}
+            foreach (Bubble bubble in bubbles)
+            {
+                bubble.IsClicked = false;
+            }
 
-            //if (isBubbleFocused)
-            //{
-            //    //pnBubble.Enabled = true;
-            //    clickedBubble = focusedBuble;
-            //    focusedBuble.IsClicked = true;
-            //}
-            //else
-            //{
-            //    focusedBuble.IsClicked = false;
-            //    //pnBubble.Enabled = false;
-            //}
+            if (isBubbleFocused)
+            {
+                //pnBubble.Enabled = true;
+                clickedBubble = focusedBuble;
+                focusedBuble.IsClicked = true;
+                DetailBubble detailBubble = new DetailBubble(clickedBubble);
+                isBubbleFocused = false;
+                focusedBuble.IsClicked = false;
+                dragging = false;
+                detailBubble.ShowDialog(this);
+            }
+            else
+            {
+                focusedBuble.IsClicked = false;
+                //pnBubble.Enabled = false;
+            }
         }
 
         private void PnCanvas_MouseWheel(object sender, MouseEventArgs e)
@@ -252,12 +260,12 @@ namespace Timelines
 
             int centerYear;
      
-            if(rbLineNlFrom.Checked && rbLineNlTo.Checked)
+            if(rbLineNlFrom.Checked && rbLineNlTo.Checked && (int)numLineFrom.Value < (int)numLineTo.Value)
             {
                 line = new Line((int)numLineFrom.Value, (int)numLineTo.Value, Direction.Right, Direction.Right, lineColor);
                 centerYear = (int)Direction.Right * (int)numLineFrom.Value + ((int)numLineTo.Value - (int)numLineFrom.Value) / 2;
             }
-            else if(rbLinePrnlFrom.Checked && rbLinePrnlTo.Checked)
+            else if(rbLinePrnlFrom.Checked && rbLinePrnlTo.Checked && (int)numLineFrom.Value < (int)numLineTo.Value)
             {
                 line = new Line((int)numLineFrom.Value, (int)numLineTo.Value, Direction.Left, Direction.Left, lineColor);
                 centerYear = (int)Direction.Left * (int)numLineFrom.Value + ((int)numLineTo.Value - (int)numLineFrom.Value) / 2;

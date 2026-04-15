@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bubble.cs" />
+    <Compile Include="DetailBubble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailBubble.Designer.cs">
+      <DependentUpon>DetailBubble.cs</DependentUpon>
+    </Compile>
     <Compile Include="Direction.cs" />
     <Compile Include="Editor.cs">
       <SubType>Form</SubType>
@@ -64,6 +70,9 @@
     <Compile Include="Meter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DetailBubble.resx">
+      <DependentUpon>DetailBubble.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Editor.resx">
       <DependentUpon>Editor.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +87,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -91,6 +101,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="edit_pencil.png.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
