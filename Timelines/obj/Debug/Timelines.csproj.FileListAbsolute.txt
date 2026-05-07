@@ -30,3 +30,35 @@ C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.cs
 C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.csproj.Up2Date
 C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.exe
 C:\Users\Petr Kohnheiser\source\repos\Timelines\Timelines\obj\Debug\Timelines.pdb
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\Timelines.exe.config
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\Timelines.exe
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\Timelines.pdb
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Buffers.dll
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Memory.dll
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Text.Json.dll
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Buffers.xml
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Memory.xml
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Text.Json.xml
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.csproj.AssemblyReference.cache
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.DetailBubble.resources
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.DetailLine.resources
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.Editor.resources
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.Form1.resources
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.Properties.Resources.resources
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.csproj.GenerateResource.cache
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.csproj.CoreCompileInputs.cache
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.csproj.Up2Date
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.exe
+C:\Users\Petr Kohnheiser\Desktop\share\vs projects\Timelines\obj\Debug\Timelines.pdb

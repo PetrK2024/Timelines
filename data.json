@@ -1,0 +1,619 @@
+{
+  "ProjectName": "Historické časové osy - testovací projekt",
+  "Lines": [
+    {
+      "Name": "Starověký Egypt",
+      "FromYear": 3100,
+      "ToYear": 30,
+      "LineDirectionFrom": -1,
+      "LineDirectionTo": -1,
+      "LineColorArgb": -23296,
+      "Bubbles": [
+        {
+          "Name": "Sjednocení Horního a Dolního Egypta",
+          "Description": "Tradičně se spojuje s králem Narmerem. Začátek raně dynastického období.",
+          "Year": 3100,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "Stavba Velké pyramidy v Gíze",
+          "Description": "Velká pyramida je spojována s faraonem Chufu. Datum je přibližné.",
+          "Year": 2560,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -256
+        },
+        {
+          "Name": "Vláda faraona Tutanchamona",
+          "Description": "Tutanchamon vládl přibližně v letech 1332-1323 př.n.l.",
+          "Year": 1332,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -65281
+        },
+        {
+          "Name": "Smrt Kleopatry VII.",
+          "Description": "Smrt Kleopatry znamenala konec ptolemaiovského Egypta a začlenění Egypta do Římské říše.",
+          "Year": 30,
+          "Month": 8,
+          "Day": 12,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -65536
+        }
+      ]
+    },
+    {
+      "Name": "Starověké Řecko",
+      "FromYear": 800,
+      "ToYear": 146,
+      "LineDirectionFrom": -1,
+      "LineDirectionTo": -1,
+      "LineColorArgb": -16776961,
+      "Bubbles": [
+        {
+          "Name": "První olympijské hry",
+          "Description": "Tradiční datum prvních olympijských her v Olympii.",
+          "Year": 776,
+          "Month": 7,
+          "Day": 1,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -16776961
+        },
+        {
+          "Name": "Bitva u Marathonu",
+          "Description": "Athéňané porazili Peršany během řecko-perských válek.",
+          "Year": 490,
+          "Month": 9,
+          "Day": 12,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -16744448
+        },
+        {
+          "Name": "Smrt Alexandra Velikého",
+          "Description": "Alexandr Veliký zemřel v Babylóně. Jeho říše se poté rozpadla mezi nástupce.",
+          "Year": 323,
+          "Month": 6,
+          "Day": 10,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -65536
+        },
+        {
+          "Name": "Řím ovládl Řecko",
+          "Description": "Po porážce Achajského spolku se Řecko dostalo pod silný římský vliv.",
+          "Year": 146,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -8355712
+        }
+      ]
+    },
+    {
+      "Name": "Římská republika a říše",
+      "FromYear": 509,
+      "ToYear": -476,
+      "LineDirectionFrom": -1,
+      "LineDirectionTo": 1,
+      "LineColorArgb": -65536,
+      "Bubbles": [
+        {
+          "Name": "Vznik Římské republiky",
+          "Description": "Tradiční datum vzniku římské republiky po svržení posledního římského krále.",
+          "Year": 509,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -65536
+        },
+        {
+          "Name": "Zavraždění Julia Caesara",
+          "Description": "Julius Caesar byl zavražděn v senátu o březnových idách.",
+          "Year": 44,
+          "Month": 3,
+          "Day": 15,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -16777216
+        },
+        {
+          "Name": "Augustus prvním císařem",
+          "Description": "Octavianus získal titul Augustus. Tento rok se často bere jako začátek římského císařství.",
+          "Year": 27,
+          "Month": 1,
+          "Day": 16,
+          "BubbleDirection": -1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "Velký požár Říma",
+          "Description": "Rozsáhlý požár zničil velkou část Říma za vlády císaře Nerona.",
+          "Year": 64,
+          "Month": 7,
+          "Day": 18,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -256
+        },
+        {
+          "Name": "Pád Západořímské říše",
+          "Description": "Sesazení císaře Romula Augusta se často bere jako symbolický konec Západořímské říše.",
+          "Year": 476,
+          "Month": 9,
+          "Day": 4,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16711681
+        }
+      ]
+    },
+    {
+      "Name": "Středověká Evropa",
+      "FromYear": 476,
+      "ToYear": 1453,
+      "LineDirectionFrom": 1,
+      "LineDirectionTo": 1,
+      "LineColorArgb": -16744448,
+      "Bubbles": [
+        {
+          "Name": "Pád Západořímské říše",
+          "Description": "Často uváděný začátek evropského středověku.",
+          "Year": 476,
+          "Month": 9,
+          "Day": 4,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16744448
+        },
+        {
+          "Name": "Korunovace Karla Velikého",
+          "Description": "Karel Veliký byl korunován císařem v Římě.",
+          "Year": 800,
+          "Month": 12,
+          "Day": 25,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "Bitva u Hastingsu",
+          "Description": "Normané vedení Vilémem Dobyvatelem porazili Anglosasy.",
+          "Year": 1066,
+          "Month": 10,
+          "Day": 14,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65536
+        },
+        {
+          "Name": "Magna Charta",
+          "Description": "Anglický král Jan Bezzemek přijal dokument omezující královskou moc.",
+          "Year": 1215,
+          "Month": 6,
+          "Day": 15,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16776961
+        },
+        {
+          "Name": "Pád Konstantinopole",
+          "Description": "Dobytí Konstantinopole Osmany. Často se bere jako jeden z konců středověku.",
+          "Year": 1453,
+          "Month": 5,
+          "Day": 29,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16711681
+        }
+      ]
+    },
+    {
+      "Name": "České země ve středověku",
+      "FromYear": 863,
+      "ToYear": 1526,
+      "LineDirectionFrom": 1,
+      "LineDirectionTo": 1,
+      "LineColorArgb": -7667712,
+      "Bubbles": [
+        {
+          "Name": "Příchod Cyrila a Metoděje",
+          "Description": "Cyril a Metoděj přišli na Velkou Moravu.",
+          "Year": 863,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16776961
+        },
+        {
+          "Name": "Dědičný královský titul",
+          "Description": "Přemysl Otakar I. získal Zlatou bulu sicilskou.",
+          "Year": 1212,
+          "Month": 9,
+          "Day": 26,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "Založení Univerzity Karlovy",
+          "Description": "Karel IV. založil pražskou univerzitu.",
+          "Year": 1348,
+          "Month": 4,
+          "Day": 7,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16744448
+        },
+        {
+          "Name": "Upálení Jana Husa",
+          "Description": "Jan Hus byl upálen v Kostnici.",
+          "Year": 1415,
+          "Month": 7,
+          "Day": 6,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65536
+        },
+        {
+          "Name": "Bitva u Moháče",
+          "Description": "Smrt Ludvíka Jagellonského otevřela cestu Habsburkům na český trůn.",
+          "Year": 1526,
+          "Month": 8,
+          "Day": 29,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16711681
+        }
+      ]
+    },
+    {
+      "Name": "Renesance a zámořské objevy",
+      "FromYear": 1300,
+      "ToYear": 1600,
+      "LineDirectionFrom": 1,
+      "LineDirectionTo": 1,
+      "LineColorArgb": -65281,
+      "Bubbles": [
+        {
+          "Name": "Počátek italské renesance",
+          "Description": "Přibližný začátek renesančního období v Itálii.",
+          "Year": 1300,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65281
+        },
+        {
+          "Name": "Gutenbergova knihtisková revoluce",
+          "Description": "Johannes Gutenberg rozšířil knihtisk pomocí pohyblivých liter. Datum je přibližné.",
+          "Year": 1450,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16776961
+        },
+        {
+          "Name": "Kolumbus doplul do Ameriky",
+          "Description": "Kryštof Kolumbus doplul do Karibiku.",
+          "Year": 1492,
+          "Month": 10,
+          "Day": 12,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16744448
+        },
+        {
+          "Name": "Magalhãesova výprava obeplula svět",
+          "Description": "Výprava zahájená Fernãem de Magalhães dokončila první obeplutí světa.",
+          "Year": 1522,
+          "Month": 9,
+          "Day": 6,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "Vydání Koperníkova díla",
+          "Description": "Vyšlo dílo De revolutionibus orbium coelestium.",
+          "Year": 1543,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65536
+        }
+      ]
+    },
+    {
+      "Name": "Novověk a revoluce",
+      "FromYear": 1600,
+      "ToYear": 1900,
+      "LineDirectionFrom": 1,
+      "LineDirectionTo": 1,
+      "LineColorArgb": -16711681,
+      "Bubbles": [
+        {
+          "Name": "Začátek třicetileté války",
+          "Description": "Pražská defenestrace bývá spojována se začátkem třicetileté války.",
+          "Year": 1618,
+          "Month": 5,
+          "Day": 23,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65536
+        },
+        {
+          "Name": "Vestfálský mír",
+          "Description": "Mírové smlouvy ukončily třicetiletou válku.",
+          "Year": 1648,
+          "Month": 10,
+          "Day": 24,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16744448
+        },
+        {
+          "Name": "Vyhlášení nezávislosti USA",
+          "Description": "Třináct amerických kolonií vyhlásilo nezávislost na Británii.",
+          "Year": 1776,
+          "Month": 7,
+          "Day": 4,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16776961
+        },
+        {
+          "Name": "Začátek Velké francouzské revoluce",
+          "Description": "Dobytí Bastily se bere jako symbolický začátek revoluce.",
+          "Year": 1789,
+          "Month": 7,
+          "Day": 14,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "Bitva u Waterloo",
+          "Description": "Porážka Napoleona Bonaparta.",
+          "Year": 1815,
+          "Month": 6,
+          "Day": 18,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16711681
+        }
+      ]
+    },
+    {
+      "Name": "První světová válka",
+      "FromYear": 1914,
+      "ToYear": 1918,
+      "LineDirectionFrom": 1,
+      "LineDirectionTo": 1,
+      "LineColorArgb": -8355712,
+      "Bubbles": [
+        {
+          "Name": "Atentát na Františka Ferdinanda",
+          "Description": "Atentát v Sarajevu byl jednou z hlavních rozbušek první světové války.",
+          "Year": 1914,
+          "Month": 6,
+          "Day": 28,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65536
+        },
+        {
+          "Name": "Začátek války",
+          "Description": "Rakousko-Uhersko vyhlásilo válku Srbsku.",
+          "Year": 1914,
+          "Month": 7,
+          "Day": 28,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16777216
+        },
+        {
+          "Name": "Bitva u Verdunu",
+          "Description": "Jedna z nejdelších a nejkrvavějších bitev první světové války.",
+          "Year": 1916,
+          "Month": 2,
+          "Day": 21,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "Vstup USA do války",
+          "Description": "Spojené státy vstoupily do první světové války.",
+          "Year": 1917,
+          "Month": 4,
+          "Day": 6,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16776961
+        },
+        {
+          "Name": "Konec první světové války",
+          "Description": "Příměří podepsané 11. listopadu 1918 ukončilo boje na západní frontě.",
+          "Year": 1918,
+          "Month": 11,
+          "Day": 11,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16744448
+        }
+      ]
+    },
+    {
+      "Name": "Druhá světová válka",
+      "FromYear": 1939,
+      "ToYear": 1945,
+      "LineDirectionFrom": 1,
+      "LineDirectionTo": 1,
+      "LineColorArgb": -16777216,
+      "Bubbles": [
+        {
+          "Name": "Napadení Polska",
+          "Description": "Německo napadlo Polsko. Začátek druhé světové války v Evropě.",
+          "Year": 1939,
+          "Month": 9,
+          "Day": 1,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65536
+        },
+        {
+          "Name": "Napadení Sovětského svazu",
+          "Description": "Operace Barbarossa.",
+          "Year": 1941,
+          "Month": 6,
+          "Day": 22,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "Útok na Pearl Harbor",
+          "Description": "Japonský útok přivedl USA do druhé světové války.",
+          "Year": 1941,
+          "Month": 12,
+          "Day": 7,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16776961
+        },
+        {
+          "Name": "Vylodění v Normandii",
+          "Description": "Spojenecké vylodění ve Francii, známé jako Den D.",
+          "Year": 1944,
+          "Month": 6,
+          "Day": 6,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16744448
+        },
+        {
+          "Name": "Konec války v Evropě",
+          "Description": "Kapitulace nacistického Německa.",
+          "Year": 1945,
+          "Month": 5,
+          "Day": 8,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16711681
+        }
+      ]
+    },
+    {
+      "Name": "Československo a moderní české dějiny",
+      "FromYear": 1918,
+      "ToYear": 1993,
+      "LineDirectionFrom": 1,
+      "LineDirectionTo": 1,
+      "LineColorArgb": -16776961,
+      "Bubbles": [
+        {
+          "Name": "Vznik Československa",
+          "Description": "Vyhlášení samostatného Československa.",
+          "Year": 1918,
+          "Month": 10,
+          "Day": 28,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16776961
+        },
+        {
+          "Name": "Mnichovská dohoda",
+          "Description": "Dohoda o odstoupení pohraničí Německu.",
+          "Year": 1938,
+          "Month": 9,
+          "Day": 30,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65536
+        },
+        {
+          "Name": "Pražské povstání",
+          "Description": "Povstání proti německé okupaci na konci druhé světové války.",
+          "Year": 1945,
+          "Month": 5,
+          "Day": 5,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16744448
+        },
+        {
+          "Name": "Únor 1948",
+          "Description": "Komunistický převrat v Československu.",
+          "Year": 1948,
+          "Month": 2,
+          "Day": 25,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "Okupace Československa",
+          "Description": "Vojská Varšavské smlouvy obsadila Československo.",
+          "Year": 1968,
+          "Month": 8,
+          "Day": 21,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16711681
+        },
+        {
+          "Name": "Sametová revoluce",
+          "Description": "Začátek politických změn vedoucích ke konci komunistického režimu.",
+          "Year": 1989,
+          "Month": 11,
+          "Day": 17,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65281
+        },
+        {
+          "Name": "Vznik České republiky",
+          "Description": "Rozdělení Československa a vznik samostatné České republiky.",
+          "Year": 1993,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16776961
+        }
+      ]
+    },
+    {
+      "Name": "Vývoj výpočetní techniky",
+      "FromYear": 1936,
+      "ToYear": 2007,
+      "LineDirectionFrom": 1,
+      "LineDirectionTo": 1,
+      "LineColorArgb": -16711936,
+      "Bubbles": [
+        {
+          "Name": "Turingův stroj",
+          "Description": "Alan Turing publikoval myšlenku abstraktního výpočetního modelu.",
+          "Year": 1936,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16776961
+        },
+        {
+          "Name": "ENIAC",
+          "Description": "ENIAC byl jedním z prvních elektronických univerzálních počítačů.",
+          "Year": 1945,
+          "Month": 12,
+          "Day": 10,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -23296
+        },
+        {
+          "Name": "UNIX",
+          "Description": "Vznik operačního systému UNIX v Bell Labs. Datum je přibližné.",
+          "Year": 1969,
+          "Month": 1,
+          "Day": 1,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16744448
+        },
+        {
+          "Name": "Vznik World Wide Webu",
+          "Description": "Tim Berners-Lee navrhl World Wide Web.",
+          "Year": 1989,
+          "Month": 3,
+          "Day": 12,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -65536
+        },
+        {
+          "Name": "Linux kernel",
+          "Description": "Linus Torvalds oznámil práci na Linuxu.",
+          "Year": 1991,
+          "Month": 8,
+          "Day": 25,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -16711681
+        },
+        {
+          "Name": "První iPhone",
+          "Description": "Apple představil první iPhone.",
+          "Year": 2007,
+          "Month": 1,
+          "Day": 9,
+          "BubbleDirection": 1,
+          "BubbleColorArgb": -8355712
+        }
+      ]
+    }
+  ]
+}
