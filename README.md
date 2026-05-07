@@ -1,76 +1,93 @@
-# 📅 Timelines
+📅 Timelines
 
-Desktopová aplikace pro práci s časovou osou (timeline), vytvořená v C# pomocí WinForms.
+Desktopová aplikace pro práci s časovými osami (timeline), vytvořená v C# pomocí WinForms.
 
----
+Aplikace umožňuje vytvářet vlastní historické nebo tematické časové osy, přidávat na ně události a upravovat jejich vlastnosti pomocí grafického editoru.
 
-## 🧠 Popis projektu
+🧠 Popis projektu
 
-Aplikace umožňuje vizualizovat časovou osu a zobrazovat na ní objekty (např. události nebo intervaly).
+Projekt slouží pro vizualizaci událostí na časové ose.
 
 Uživatel může:
-- zobrazit timeline s osou
-- přidávat objekty (např. čáry nebo bubliny)
-- upravovat jejich vlastnosti
-- pracovat s posunem a měřítkem
+    vytvářet nové osy
+    přidávat bubliny (události)
+    upravovat názvy, datumy a popisy
+    pracovat s časovou osou pomocí posunu a zoomu
+    zobrazovat detail osy i detail konkrétní události
+    pracovat s obdobími: N. l. a Př. n. l.
+          
+🛠️ Použité technologie
+    C#
+    .NET WinForms
+    Graphics / GDI+
+    Visual Studio
+    🧩 Struktura projektu
+    📌 Hlavní části
+    
+Editor
+  Hlavní okno aplikace.
 
-## 🛠️ Použité technologie
+  Obsahuje:
+      vykreslování timeline
+      práci s myší
+      zoom a posun osy
+      správu linek a bublin
 
-- C#
-- .NET Framework (WinForms)
-- Visual Studio
+Meter
+  Statická třída starající se o:
+    vykreslení časové osy
+    ticků
+    roků
+    výpočty pozic
+    zoomování
+    převod mezi rokem a pozicí na obrazovce
+    
+Line
+  Reprezentuje jednu osu na timeline.
 
+  Obsahuje:
+    časový interval
+    směr osy
+    seznam vlastních bublin
+    vykreslování osy
+    detekci focusu myši
+  
+Bubble
+  Reprezentuje jednu událost na timeline.
 
-## 🧩 Struktura projektu
+  Obsahuje:
+    rok
+    měsíc
+    den
+    název
+    popis
+    barvu
+    vlastní pozici na ose
 
-### 📌 Hlavní části:
+DetailBubble
+  Formulář pro detail a editaci bubliny.
 
-- `Form1`
-  - hlavní okno aplikace
-  - vykreslování timeline
+  Umožňuje:
+    upravit název události
+    upravit datum
+    změnit popis
+    změnit barvu
+    přidávat další bubliny na stejnou osu
+    mazat bubliny
+    přepínat mezi bublinami
+  
+DetailLine
+  Formulář pro detail osy.
 
-- `Meter`
-  - stará se o vykreslení časové osy (ticks, roky, měřítko)
+  Umožňuje:
+    upravit název osy
+    zobrazit rozsah osy
+    zobrazit počet bublin
+    zobrazit příbuzné / překrývající se osy
+    mazat osy
 
-- `Line`
-  - reprezentuje čáru na timeline
-
-- `Bubble`
-  - reprezentuje objekt (např. událost) s textem
-
-- `Editor`
-  - formulář pro úpravu objektů
-
-- `Direction`
-  - pomocná třída (např. směr vykreslování)
-
----
-
-## 🎯 Funkcionalita
-
-- vykreslení časové osy
-- dynamické měřítko (zoom)
-- posun timeline (offset)
-- vykreslování různých typů objektů:
-  - čáry
-  - bubliny (textové události)
-- editace objektů pomocí formuláře
-
----
-
-## 🖥️ Grafika
-
-Aplikace využívá:
-- `Graphics` pro kreslení
-- `Paint` event
-- vlastní výpočty pozic na ose
-
----
-
-## 🚀 Možná rozšíření
-
-- ukládání a načítání timeline (soubor / JSON)
-- drag & drop objektů myší
-- zoom kolečkem myši
-- více typů objektů (intervaly, skupiny)
-- funkcionalitu bublin - Každá bublina půjde rozkliknout a ukáže se formulář pro práci s daty/textetm
+Direction
+  Pomocný enum určující směr:
+    Left → Př. n. l.
+    Right → N. l.
+    
