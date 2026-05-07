@@ -134,7 +134,4 @@ Pomocný enum určující směr:
 
 ## 🖼️ Ukázka aplikace
 
-Sem můžeš později přidat screenshot:
-
-```md
 ![Ukázka aplikace](images/editor.png)
