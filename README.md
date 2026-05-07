@@ -135,3 +135,5 @@ Pomocný enum určující směr:
 ## 🖼️ Ukázka aplikace
 
 ![Ukázka aplikace](images/editor.png)
+!(images/detailOsy.png)
+!(images/detailBubliny.png)
