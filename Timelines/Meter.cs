@@ -13,9 +13,9 @@ internal static class Meter
     //Tick
     public static Pen TickPen { get; set; } = new Pen(Color.Black, 1);
 
-    public const int TICKBASEY = 20;
-    public const int FIVETICKY = 30;
-    public const int TENTICKY = 40;
+    public const int TickBaseY = 20;
+    public const int FiveTickY = 30;
+    public const int TenTickY = 40;
 
     //Text
     public static Font TextFont { get; set; } = new Font("Arial", 10);
@@ -45,19 +45,19 @@ internal static class Meter
             float textX = tickX - textSize.Width / 2f;
             float textY = (DrawTextGapPixels - 10);
 
-            if (tickIndex % 5  == 0)
+            if (tickIndex % 5 == 0)
             {
-                g.DrawLine(TickPen, tickX, TICKBASEY, tickX, TENTICKY);
+                g.DrawLine(TickPen, tickX, TickBaseY, tickX, TenTickY);
 
                 if (tickIndex % 10 == 0)
                 {
                     g.DrawString(Math.Abs(year).ToString(), TextFont, TextBrush, textX, textY);
-                    g.DrawLine(GridPen, tickX, TENTICKY, tickX, canvasHeight);
+                    g.DrawLine(GridPen, tickX, TenTickY, tickX, canvasHeight);
                 }
             }
             else
             {
-                g.DrawLine(TickPen, tickX, TICKBASEY, tickX, FIVETICKY);
+                g.DrawLine(TickPen, tickX, TickBaseY, tickX, FiveTickY);
             }
         }
     }
@@ -116,26 +116,26 @@ internal static class Meter
 
     public static void ZoomAtMouse(int mouseX, int canvasWidth, int wheelDelta)
     {
-        if(PixelsPerTick <= 0)
+        if (PixelsPerTick <= 0)
         {
             return;
         }
 
         int nearestYearToCursor = GetYearFromX(mouseX, canvasWidth);
 
-        if(wheelDelta > 0)
+        if (wheelDelta > 0)
         {
             PixelsPerTick++;
         }
-        else if(wheelDelta < 0)
+        else if (wheelDelta < 0)
         {
             PixelsPerTick--;
         }
 
-        if (PixelsPerTick < 5) 
+        if (PixelsPerTick < 5)
             PixelsPerTick = 5;
 
-        if (PixelsPerTick > 60) 
+        if (PixelsPerTick > 60)
             PixelsPerTick = 60;
 
         int centerX = canvasWidth / 2;

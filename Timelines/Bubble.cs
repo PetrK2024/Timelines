@@ -1,5 +1,4 @@
 ﻿using System.Drawing;
-using System.Windows.Forms;
 
 namespace Timelines
 {
@@ -29,11 +28,6 @@ namespace Timelines
         {
             OwningLine = owningLine;
             Year = year;
-            if(Year > OwningLine.ToYear || Year < OwningLine.FromYear)
-            {
-                MessageBox.Show("Bublina musí být ose!");
-                return;
-            }
             BubbleDirection = direction;
             BubbleColor = bubbleColor;
             BubbleBrush = new SolidBrush(BubbleColor);
@@ -44,7 +38,7 @@ namespace Timelines
         {
             Y = OwningLine.LineY - (Width / 2);
 
-            if(OwningLine.FromYear <= Year && OwningLine.ToYear >= Year)
+            if (OwningLine.FromYear <= Year && OwningLine.ToYear >= Year)
             {
                 if (Year * (int)BubbleDirection <= 0 && !SizeIsChanging)
                 {
@@ -55,13 +49,13 @@ namespace Timelines
                     X = OwningLine.P1.X - (Width / 2) + (Year * Meter.PixelsPerTick * (int)BubbleDirection) - (OwningLine.FromYear * Meter.PixelsPerTick);
                 }
 
-                Rectangle rec = new Rectangle(new Point(X,Y), BubbleSize);
+                Rectangle rec = new Rectangle(new Point(X, Y), BubbleSize);
                 g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
                 g.FillEllipse(BubbleBrush, rec);
             }
-           
 
-          
+
+
         }
 
         public bool IsBubbleFocused(Point mousePosition)
@@ -69,13 +63,26 @@ namespace Timelines
             Rectangle bubble = new Rectangle(new Point(X, Y), BubbleSize);
             Rectangle mouse = new Rectangle(new Point(mousePosition.X - (BubbleSize.Width / 2), mousePosition.Y - 5), BubbleSize);
 
-            if(bubble.IntersectsWith(mouse))
+            if (bubble.IntersectsWith(mouse))
             {
                 return true;
             }
 
-           //Cursor.Current = Cursors.Default;
-           return false;
+            //Cursor.Current = Cursors.Default;
+            return false;
+        }
+
+        public void SetColor(Color color)
+        {
+            BubbleColor = color;
+
+            if (BubbleBrush != null)
+            {
+                BubbleBrush.Dispose();
+            }
+
+            BubbleBrush = new SolidBrush(BubbleColor);
         }
     }
+
 }

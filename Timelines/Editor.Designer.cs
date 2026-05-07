@@ -37,8 +37,8 @@
             this.rbNl = new System.Windows.Forms.RadioButton();
             this.rbPrnl = new System.Windows.Forms.RadioButton();
             this.pnLine = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnDeleteLine = new System.Windows.Forms.Button();
+            this.btnDetailLine = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.rbLinePrnlTo = new System.Windows.Forms.RadioButton();
             this.rbLineNlTo = new System.Windows.Forms.RadioButton();
@@ -54,6 +54,9 @@
             this.rbBubbleNl = new System.Windows.Forms.RadioButton();
             this.numBubbleYear = new System.Windows.Forms.NumericUpDown();
             this.btnCreateBubble = new System.Windows.Forms.Button();
+            this.btnSaveProject = new System.Windows.Forms.Button();
+            this.btnSaveProjectAs = new System.Windows.Forms.Button();
+            this.listBoxLines = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.numFindYear)).BeginInit();
             this.pnFindYear.SuspendLayout();
             this.pnLine.SuspendLayout();
@@ -152,8 +155,8 @@
             // pnLine
             // 
             this.pnLine.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pnLine.Controls.Add(this.label1);
-            this.pnLine.Controls.Add(this.label2);
+            this.pnLine.Controls.Add(this.btnDeleteLine);
+            this.pnLine.Controls.Add(this.btnDetailLine);
             this.pnLine.Controls.Add(this.panel2);
             this.pnLine.Controls.Add(this.panel1);
             this.pnLine.Controls.Add(this.numLineTo);
@@ -164,23 +167,25 @@
             this.pnLine.Size = new System.Drawing.Size(653, 87);
             this.pnLine.TabIndex = 5;
             // 
-            // label1
+            // btnDeleteLine
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(499, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "label1";
+            this.btnDeleteLine.Location = new System.Drawing.Point(465, 49);
+            this.btnDeleteLine.Name = "btnDeleteLine";
+            this.btnDeleteLine.Size = new System.Drawing.Size(75, 23);
+            this.btnDeleteLine.TabIndex = 10;
+            this.btnDeleteLine.Text = "Smazat osu";
+            this.btnDeleteLine.UseVisualStyleBackColor = true;
+            this.btnDeleteLine.Click += new System.EventHandler(this.btnDeleteLine_Click_1);
             // 
-            // label2
+            // btnDetailLine
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(496, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "label2";
+            this.btnDetailLine.Location = new System.Drawing.Point(384, 50);
+            this.btnDetailLine.Name = "btnDetailLine";
+            this.btnDetailLine.Size = new System.Drawing.Size(75, 23);
+            this.btnDetailLine.TabIndex = 9;
+            this.btnDetailLine.Text = "Detail osy";
+            this.btnDetailLine.UseVisualStyleBackColor = true;
+            this.btnDetailLine.Click += new System.EventHandler(this.btnDetailLine_Click_1);
             // 
             // panel2
             // 
@@ -296,7 +301,7 @@
             this.pnBubble.Controls.Add(this.btnCreateBubble);
             this.pnBubble.Location = new System.Drawing.Point(1037, 12);
             this.pnBubble.Name = "pnBubble";
-            this.pnBubble.Size = new System.Drawing.Size(461, 87);
+            this.pnBubble.Size = new System.Drawing.Size(424, 87);
             this.pnBubble.TabIndex = 10;
             // 
             // panel5
@@ -357,11 +362,42 @@
             this.btnCreateBubble.UseVisualStyleBackColor = true;
             this.btnCreateBubble.Click += new System.EventHandler(this.btnCreateBubble_Click);
             // 
+            // btnSaveProject
+            // 
+            this.btnSaveProject.Location = new System.Drawing.Point(1793, 19);
+            this.btnSaveProject.Name = "btnSaveProject";
+            this.btnSaveProject.Size = new System.Drawing.Size(105, 23);
+            this.btnSaveProject.TabIndex = 11;
+            this.btnSaveProject.Text = "Uložit projekt";
+            this.btnSaveProject.UseVisualStyleBackColor = true;
+            this.btnSaveProject.Click += new System.EventHandler(this.btnSaveProject_Click);
+            // 
+            // btnSaveProjectAs
+            // 
+            this.btnSaveProjectAs.Location = new System.Drawing.Point(1793, 48);
+            this.btnSaveProjectAs.Name = "btnSaveProjectAs";
+            this.btnSaveProjectAs.Size = new System.Drawing.Size(105, 23);
+            this.btnSaveProjectAs.TabIndex = 12;
+            this.btnSaveProjectAs.Text = "Uložit projekt jako";
+            this.btnSaveProjectAs.UseVisualStyleBackColor = true;
+            this.btnSaveProjectAs.Click += new System.EventHandler(this.btnSaveProjectAs_Click);
+            // 
+            // listBoxLines
+            // 
+            this.listBoxLines.FormattingEnabled = true;
+            this.listBoxLines.Location = new System.Drawing.Point(1467, 13);
+            this.listBoxLines.Name = "listBoxLines";
+            this.listBoxLines.Size = new System.Drawing.Size(320, 82);
+            this.listBoxLines.TabIndex = 13;
+            // 
             // Editor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2017, 933);
+            this.ClientSize = new System.Drawing.Size(1910, 879);
+            this.Controls.Add(this.listBoxLines);
+            this.Controls.Add(this.btnSaveProjectAs);
+            this.Controls.Add(this.btnSaveProject);
             this.Controls.Add(this.pnBubble);
             this.Controls.Add(this.pnLine);
             this.Controls.Add(this.pnFindYear);
@@ -374,7 +410,6 @@
             this.pnFindYear.ResumeLayout(false);
             this.pnFindYear.PerformLayout();
             this.pnLine.ResumeLayout(false);
-            this.pnLine.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -410,13 +445,16 @@
         private System.Windows.Forms.RadioButton rbLinePrnlFrom;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel pnBubble;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.RadioButton rbBubblePrnl;
         private System.Windows.Forms.RadioButton rbBubbleNl;
         private System.Windows.Forms.NumericUpDown numBubbleYear;
         private System.Windows.Forms.Button btnCreateBubble;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnDetailLine;
+        private System.Windows.Forms.Button btnDeleteLine;
+        private System.Windows.Forms.Button btnSaveProject;
+        private System.Windows.Forms.Button btnSaveProjectAs;
+        private System.Windows.Forms.ListBox listBoxLines;
     }
 }

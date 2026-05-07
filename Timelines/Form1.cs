@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Timelines
@@ -21,6 +14,25 @@ namespace Timelines
         {
             Editor editor = new Editor();
             editor.Show();
+        }
+
+        private void btnOpen_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog dialog = new OpenFileDialog())
+            {
+                dialog.Filter = "Timeline project (*.json)|*.json";
+                dialog.Title = "Otevřít projekt";
+
+                if (dialog.ShowDialog() != DialogResult.OK)
+                {
+                    return;
+                }
+
+                TimelineProject project = TimelineStorage.Load(dialog.FileName);
+
+                Editor editor = new Editor(project, dialog.FileName);
+                editor.Show();
+            }
         }
     }
 }

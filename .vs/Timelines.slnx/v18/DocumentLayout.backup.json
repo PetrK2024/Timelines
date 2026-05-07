@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\detailline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\detailline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|c:\\users\\petr kohnheiser\\source\\repos\\timelines\\timelines\\detailbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\detailbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Timelines||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\bubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\bubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\meter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\meter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\detailline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\detailline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\timelines\\detailbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\detailbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|c:\\users\\petr kohnheiser\\source\\repos\\timelines\\timelines\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{163C8EDD-A1B7-4D6B-9530-A27E248B9263}|Timelines\\Timelines.csproj|solutionrelative:timelines\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Editor.cs",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Editor.cs",
+              "RelativeDocumentMoniker": "Timelines\\Editor.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Editor.cs*",
+              "RelativeToolTip": "Timelines\\Editor.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwDIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T16:21:01.15Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Bubble.cs",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Bubble.cs",
+              "RelativeDocumentMoniker": "Timelines\\Bubble.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Bubble.cs",
+              "RelativeToolTip": "Timelines\\Bubble.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:48:37.139Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Meter.cs",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Meter.cs",
+              "RelativeDocumentMoniker": "Timelines\\Meter.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Meter.cs",
+              "RelativeToolTip": "Timelines\\Meter.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwIMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T16:18:28.264Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Line.cs",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Line.cs",
+              "RelativeDocumentMoniker": "Timelines\\Line.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Line.cs",
+              "RelativeToolTip": "Timelines\\Line.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwDUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:16:15.528Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailLine.cs",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\DetailLine.cs",
+              "RelativeDocumentMoniker": "Timelines\\DetailLine.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\DetailLine.cs",
+              "RelativeToolTip": "Timelines\\DetailLine.cs",
+              "ViewState": "AgIAAMABAAAAAAAAAAAAwM8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T18:43:29.087Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetailBubble.cs",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\DetailBubble.cs",
+              "RelativeDocumentMoniker": "Timelines\\DetailBubble.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\DetailBubble.cs",
+              "RelativeToolTip": "Timelines\\DetailBubble.cs",
+              "ViewState": "AgIAANgCAAAAAAAAAAAkwOICAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:49:01.238Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Timelines",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Timelines.csproj",
+              "RelativeDocumentMoniker": "Timelines\\Timelines.csproj",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Timelines.csproj",
+              "RelativeToolTip": "Timelines\\Timelines.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-07T09:07:44.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Form1.cs",
+              "RelativeDocumentMoniker": "Timelines\\Form1.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Form1.cs [Design]",
+              "RelativeToolTip": "Timelines\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T19:38:59.084Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DetailLine.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\DetailLine.cs",
+              "RelativeDocumentMoniker": "Timelines\\DetailLine.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\DetailLine.cs [Design]",
+              "RelativeToolTip": "Timelines\\DetailLine.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T18:43:03.247Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Form1.cs",
+              "RelativeDocumentMoniker": "Timelines\\Form1.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Form1.cs",
+              "RelativeToolTip": "Timelines\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T15:14:03.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Editor.cs",
+              "RelativeDocumentMoniker": "Timelines\\Editor.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\Editor.cs [Design]*",
+              "RelativeToolTip": "Timelines\\Editor.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T15:14:19.577Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetailBubble.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\DetailBubble.cs",
+              "RelativeDocumentMoniker": "Timelines\\DetailBubble.cs",
+              "ToolTip": "C:\\Users\\Petr Kohnheiser\\source\\repos\\Timelines\\Timelines\\DetailBubble.cs [Design]",
+              "RelativeToolTip": "Timelines\\DetailBubble.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:22:41.317Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
